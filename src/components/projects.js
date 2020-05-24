@@ -57,7 +57,7 @@ class Projects extends React.Component {
                       <div style={{textAlign: 'center'}}>
                       <h3 style={{color: 'black', fontSize:'2,5em'}}><b>Pablo Cantón</b></h3>
                         <p><a href={DocPDF} download="Pablo Cantón CV" style={{color: 'grey', fontSize:'1.5em',textDecoration: 'none'}}>
-                        <i class="fa fa-arrow-circle-down fa-lg"></i>    Download Resume</a></p>
+                        Download Resume</a></p>
                       </div>
                   </div>
                   <div class="columnRight drop-shadow">
