@@ -39,21 +39,21 @@ class Resume extends Component {
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                    <Link className="LinkStyle HidePhone" to="/PC-folio.github.io/hackathonEU">
+                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonEU">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
                       <i class="fa fa-chevron-left fa-lg" style={{color: '#CCCCCC', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                    <Link className="LinkStyle HidePC" to="/PC-folio.github.io/hackathonEU">
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonEU">
                     <i class="fa fa-chevron-left fa-lg" style={{color: '#CCCCCC', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                    <Link className="LinkStyle" to="/PC-folio.github.io/">
+                    <Link className="LinkStyle" to="/PCfolio.github.io/">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PC-folio.github.io/betsFriends">
+                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/betsFriends">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#CCCCCC', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                    <Link className="LinkStyle HidePC" to="/PC-folio.github.io/betsFriends">
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/betsFriends">
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#CCCCCC', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                 </div>

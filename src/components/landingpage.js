@@ -46,48 +46,48 @@ class Landing extends Component {
                 <div style={{paddingTop:'4vh', paddingBottom:'4vh'}}>
                 <Link className="LinkStyle"  onClick={() => fullpageApi.moveTo(2, 0)}style={{paddingRight:'4vh'}}>
                   <p className="MainButton"style={{color: 'black', fontSize:'3vh'}}><b>Projects</b></p></Link>
-                <Link className="LinkStyle" to="/PC-folio.github.io/projects" style={{paddingLeft:'4vh'}}>
+                <Link className="LinkStyle" to="/PCfolio.github.io/projects" style={{paddingLeft:'4vh'}}>
                   <p className="MainButton"style={{color: 'black', fontSize:'3vh'}}>Resume</p></Link>
                   </div>
                 </div>
               </div>
               <div className="section">
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/pcwork"><img className="ProjectPic" src={Work}/></Link>
+                  <Link to="/PCfolio.github.io/pcwork"><img className="ProjectPic" src={Work}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/hackathonEU"><img className="ProjectPic" src={Educo}/></Link>
+                  <Link to="/PCfolio.github.io/hackathonEU"><img className="ProjectPic" src={Educo}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
+                  <Link to="/PCfolio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
+                  <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
+                  <Link to="/PCfolio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
+                  <Link to="/PCfolio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/pctechnical"><img className="ProjectPic" src={PCtechnical}/></Link>
+                  <Link to="/PCfolio.github.io/pctechnical"><img className="ProjectPic" src={PCtechnical}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
+                  <Link to="/PCfolio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
               </Navigation>
 
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
+                  <Link to="/PCfolio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/tekla"><img className="ProjectPic" src={Tekla}/></Link>
+                  <Link to="/PCfolio.github.io/tekla"><img className="ProjectPic" src={Tekla}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
+                  <Link to="/PCfolio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PC-folio.github.io/iande"><img className="ProjectPic" src={IandE}/></Link>
+                  <Link to="/PCfolio.github.io/iande"><img className="ProjectPic" src={IandE}/></Link>
               </Navigation>
 
                 </div>

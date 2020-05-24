@@ -18,20 +18,20 @@ import Tekla from './tekla';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/PC-folio.github.io/" component={LandingPage}/>
-    <Route path="/PC-folio.github.io/projects" component={Projects} />
-    <Route path="/PC-folio.github.io/posti" component={Posti} />
-    <Route path="/PC-folio.github.io/hackathonGOC" component={HackathonGOC} />
-    <Route path="/PC-folio.github.io/hackathonAD" component={HackathonAD} />
-    <Route path="/PC-folio.github.io/hackathonWK" component={HackathonWK} />
-    <Route path="/PC-folio.github.io/hackathonEU" component={HackathonEU} />
-    <Route path="/PC-folio.github.io/betsFriends" component={BetsFriends} />
-    <Route path="/PC-folio.github.io/vredestein" component={Vredestein} />
-    <Route path="/PC-folio.github.io/pcdesign" component={PCdesign} />
-    <Route path="/PC-folio.github.io/pctechnical" component={PCtechnical} />
-    <Route path="/PC-folio.github.io/pcwork" component={PCwork} />
-    <Route path="/PC-folio.github.io/tekla" component={Tekla} />
-    <Route path="/PC-folio.github.io/iande" component={IandE} />
+    <Route exact path="/PCfolio.github.io/" component={LandingPage}/>
+    <Route path="/PCfolio.github.io/projects" component={Projects} />
+    <Route path="/PCfolio.github.io/posti" component={Posti} />
+    <Route path="/PCfolio.github.io/hackathonGOC" component={HackathonGOC} />
+    <Route path="/PCfolio.github.io/hackathonAD" component={HackathonAD} />
+    <Route path="/PCfolio.github.io/hackathonWK" component={HackathonWK} />
+    <Route path="/PCfolio.github.io/hackathonEU" component={HackathonEU} />
+    <Route path="/PCfolio.github.io/betsFriends" component={BetsFriends} />
+    <Route path="/PCfolio.github.io/vredestein" component={Vredestein} />
+    <Route path="/PCfolio.github.io/pcdesign" component={PCdesign} />
+    <Route path="/PCfolio.github.io/pctechnical" component={PCtechnical} />
+    <Route path="/PCfolio.github.io/pcwork" component={PCwork} />
+    <Route path="/PCfolio.github.io/tekla" component={Tekla} />
+    <Route path="/PCfolio.github.io/iande" component={IandE} />
 
   </Switch>
 )

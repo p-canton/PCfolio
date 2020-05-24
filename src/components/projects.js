@@ -43,7 +43,7 @@ class Projects extends React.Component {
                       <i class="fa fa-github fa-lg" style={{color: 'black', fontSize:'3vh', padding: '1.5vh'}}></i></a></p>
                 </div>
                 <div style={{paddingTop:'4vh', paddingBottom: '4vh'}}>
-                <Link className="LinkStyle"  to="/PC-folio.github.io/" style={{paddingRight:'4vh'}}>
+                <Link className="LinkStyle"  to="/PCfolio.github.io/" style={{paddingRight:'4vh'}}>
                   <p className="MainButton" style={{color: 'black', fontSize:'3vh'}}>Projects</p></Link>
                 <Link className="LinkStyle" onClick={() => fullpageApi.moveTo(2, 0)} style={{paddingLeft:'4vh'}}>
                   <p className="MainButton"style={{color: 'black', fontSize:'3vh'}}><b>Resume</b></p></Link>
@@ -68,12 +68,12 @@ class Projects extends React.Component {
                         <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
                         Nice to see you around here, I am Pablo Cantón, a  multidisciplinary <b>UX/UI Designer</b> from Spain born in the 95.
                         I  design and develop innovatively IT solutions focus on the user experience, aiming for a positive impact on society.
-                        Considering my <Link className = "LinkStyle" to="/PC-folio.github.io/">background</Link> I am really comfortable using designing software or implement design process, also coding as
+                        Considering my <Link className = "LinkStyle" to="/PCfolio.github.io/">background</Link> I am really comfortable using designing software or implement design process, also coding as
                         a backend or frontend. Keep scrolling for more information.
                         </p>
                         <h3 className = "Tittle" style={{color: 'black', fontSize:'2em', textAlign: 'center',}}>Experience</h3>
                         <div className = "ContGrid3" style={{paddingBottom: '1em'}}>
-                          <a className= "DivHover" href="/PC-folio.github.io/pcwork">
+                          <a className= "DivHover" href="/PCfolio.github.io/pcwork">
                             <img src={Philips} style={{display: 'inline',height: '8vh'}}></img>
                             <p style={{fontSize: '1.5em', paddingTop: '0.5em'}}><b>UX Designer</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>6 months intern</p>
@@ -83,7 +83,7 @@ class Projects extends React.Component {
                             </div>
                             </div>
                           </a>
-                          <a className= "DivHover" href="/PC-folio.github.io/pcwork">
+                          <a className= "DivHover" href="/PCfolio.github.io/pcwork">
                             <img src={Everis} style={{display: 'inline',height: '8vh'}}></img>
                             <p style={{fontSize: '1.5em', paddingTop: '0.5em'}}><b>CS Developer</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>1 year intern</p>
@@ -93,7 +93,7 @@ class Projects extends React.Component {
                               </div>
                             </div>
                           </a>
-                          <a className= "DivHover" href="/PC-folio.github.io/">
+                          <a className= "DivHover" href="/PCfolio.github.io/">
                             <img src={PCicon} style={{display: 'inline',height: '8vh'}}></img>
                             <p style={{fontSize: '1.5em', paddingTop: '0.5em'}}><b>Personal projects</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>4 years work</p>
@@ -213,40 +213,40 @@ export default Projects;
 /*
 <div className="ProjectTexPic" style={{paddingTop: '6.2em'}}>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
+      <Link to="/PCfolio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
+      <Link to="/PCfolio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
+      <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
+      <Link to="/PCfolio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
+      <Link to="/PCfolio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
+      <Link to="/PCfolio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
+      <Link to="/PCfolio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/pctechnical"><img className="ProjectPic" src={PCtechnical}/></Link>
+      <Link to="/PCfolio.github.io/pctechnical"><img className="ProjectPic" src={PCtechnical}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
+      <Link to="/PCfolio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
+      <Link to="/PCfolio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
+      <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
   </Navigation>
   <Navigation style={{display: 'inline'}}>
-      <Link to="/PC-folio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
+      <Link to="/PCfolio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
   </Navigation>
 </div>
 */
