@@ -109,8 +109,8 @@ class Projects extends React.Component {
                           <div >
                             <p style={{fontSize: '1.5em'}}><b>UX Tools</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>Invision / FlowMap</p>
-                            <p style={{fontSize: '1em', lineHeight: '80%'}}>Miro</p>
-                            <p style={{fontSize: '1em', lineHeight: '80%'}}>Optimizely</p></div>
+                            <p style={{fontSize: '1em', lineHeight: '80%'}}>Adobe Illustrator</p>
+                            <p style={{fontSize: '1em', lineHeight: '80%'}}>Miro / Optimizely</p></div>
                           <div>
                             <p style={{fontSize: '1.5em'}}><b>UI Tools</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>WebFlow</p>
