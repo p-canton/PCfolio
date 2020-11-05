@@ -11,22 +11,16 @@ import InternalDev from './images/InternalDev.png';
 import PostiImage from './images/PostiImage.png';
 import BidComp from './images/BidComp.png';
 import UnisveIcon from './images/UnisveIcon.png';
+import SlushImage from './images/SlushImage.png';
 
 import IandEicon from './images/IandEicon.png';
-import ReactFullpage from "@fullpage/react-fullpage";
 
 
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#FFFFEF", "white", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#FFFFEF"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'black', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -49,18 +43,17 @@ class Resume extends Component {
                   </div>
                 </div>
                   <img  src={IandEicon} style={{height: '30vh'}}/>
-                  <p className = "SubTittle" style={{color: 'black', paddingBottom: '4vh'}}>"The latest project I cooperate to improve the company market strategy."</p>
+                  <p className = "SubTittle" style={{color: 'black', paddingBottom: '4vh'}}>"The latest projects I cooperated to improve the company market strategy and or related to entrepreneurship."</p>
                   </div>
                 </div>
-              <div className="section">
+              <div>
               <img className="imageProject" src={NedapImage}/>
-              <div className="textPadding" style={{paddingTop: '4vh'}}>
+              <div className="textPadding" style={{paddingTop: '4vh', backgroundColor:"white"}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
                   After two years in my master in human-computer interaction and design, I could colaborate with diferents companies to imrpove their market strategy. I was able to work with big corporations, little
                   companies and create my own startup experience, so I decided to present some of the results of some projects. Thaks to these colaborations, I was able to imrpove my knowledge on how a busines works
                   and all the needed skills that a company requires to succes.
                 </p>
-              </div>
               <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '4vh'}}>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                   <div>
@@ -81,6 +74,7 @@ class Resume extends Component {
                       shared with the company were the affinity Mapping, Value proposition Canvas, the definition of the products market fit and the journey map of user and costumers.
                     </p>
                   </div>
+                </div>
                 </div>
               </div>
               <img className="imageProject" src={EliasImage}/>
@@ -155,9 +149,28 @@ class Resume extends Component {
                   </div>
                 </div>
               </div>
+              <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '2em'}}>
+                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div>
+                  <img src={SlushImage} style={{maxWidth: '100vh', width: '55%', height: 'auto', paddingTop: '4vh'}}/>
+                  </div>
+                </div>
+                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div>
+                  <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#56CAD8'}}><b>Slush</b></h3>
+                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
+                    <a className = "LinkStyle" href="https://www.slush.org/">Slush</a> is a not-for-profit event that takes place in Helsinki, with the purpose of help startups or
+                    new technologies to facilitate meetings with investors and create a worldwide startup community. During these days, I was assigned with some task to help the crew and
+                    have some freedom to visit enjoy the event and visit the different pieces. I decided to join as a volunteer because since I started my bachelor, I was interested in
+                    technology and the world of the startups. For that reason, I decided to enrol as a volunteer and has de opportunity to experience this huge opportunity, and have new
+                    connections.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
+              </div>
+              <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
                 <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
                 <div>
                   <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
@@ -172,14 +185,12 @@ class Resume extends Component {
                   <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                   <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FF8000', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <Link className="LinkStyle" to="/PCfolio.github.io/">
+                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                </div>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
   }

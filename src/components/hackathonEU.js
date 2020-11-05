@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import EducoTab from './images/educoTab.png';
 import Educo from './images/e-duco.mp4';
 
-import ReactFullpage from "@fullpage/react-fullpage";
 import EducoPC from './images/educoPC.png';
 import EducoImage from './images/educoImage.png';
 import StudIcon from './images/StudIcon.png';
@@ -13,7 +12,7 @@ import PuzzleIcon from './images/PuzzleIcon.png';
 
 import EducoArq from './images/educoArq.png';
 import IconEduco from './images/IconEduco.png';
-
+import EducoMock from './images/EducoMock.png';
 import ReactIcon from './images/ReactIcon.png';
 import FireBaseIcon from './images/FireBaseIcon.png';
 import AIgoogleIcon from './images/AIgoogleIcon.png';
@@ -27,14 +26,8 @@ import WebRTCIcon from './images/WebRTCIcon.png';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#B9FACF", "white", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#B9FACF"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'black', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -60,8 +53,9 @@ class Resume extends Component {
                   <p className = "SubTittle" style={{color: 'black', paddingBottom: '4vh'}}>"The missing piece for the education of tomorrow"</p>
                   </div>
                 </div>
-              <div className="section">
+              <div>
               <img className="imageProject" src={EducoImage}/>
+              <div style={{backgroundColor:"white"}}>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
                 In April of 2020, a team of five students participated in a 48h European hackathon, where the team developed <b>e-duco</b>, a web application solution that uses
@@ -89,6 +83,7 @@ class Resume extends Component {
                     <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Easy implementation</b></p>
                     <p>Bring a product ready to start to use it</p>
                   </div>
+                </div>
                 </div>
               </div>
                 <img className="imageProject" src={EducoPC} />
@@ -123,6 +118,13 @@ class Resume extends Component {
                       </div>
                     </div>
                     </div>
+                    <div style={{backgroundColor: 'white'}}>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', paddingBottom:"4em"}}>
+                      <img className="HidePhone" src={EducoMock} style={{paddingTop:"2em" ,width:'60%',textAlign: 'center'}}/>
+                      <img className="HidePC" src={EducoMock} style={{paddingTop:"2em" ,width:'85%',textAlign: 'center'}}/></div>
+
+                    </div>
+
                     <div style={{color: 'black', backgroundColor:'white'}}>
                       <img className="imageProject" src={EducoTab} />
                     </div>
@@ -187,8 +189,8 @@ class Resume extends Component {
                   </div>
                 </div>
               </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
+              <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
                 <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
                 <div>
                   <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
@@ -203,14 +205,12 @@ class Resume extends Component {
                   <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                   <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <Link className="LinkStyle" to="/PCfolio.github.io/">
+                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                </div>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
   }

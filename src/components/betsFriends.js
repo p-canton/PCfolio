@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Layout, Navigation, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import BetsFriends from './images/BFscreens.jpg';
+import BetsFriends1 from './images/BetsFriends.jpg';
 import BetsFriends2 from './images/BFscreens2.jpg';
 import BFmockupMb from './images/BFmockupMb.png';
 import BFicon from './images/BFicon.png';
-import ReactFullpage from "@fullpage/react-fullpage";
 import LogoPC from './images/pcIconN.png';
 import BFBigScreen from './images/BFBigScreen.mp4';
 import BFSmallScreen from './images/BFSmallScreen.mp4';
@@ -19,14 +19,8 @@ import PrizesIcon from './images/PrizesIcon.png';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#00424f", "#00424f", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#00424f"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -52,7 +46,7 @@ class Resume extends Component {
                   <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"Betting between friends has nevermore been that easy."</p>
                   </div>
                 </div>
-              <div className="section">
+              <div>
               <img className="imageProject" src={BetsFriends2}/>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
@@ -60,23 +54,23 @@ class Resume extends Component {
                 out of paying his dues? With our web application, you can easily keep track of your bets and hold your friends accountable. In one place you
                 will have an overview of all the bets you currently have running and also be able to see popular bets other people are involved in and join them.</p>
               </div>
-              <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#F35151'}}><b>User Grupo & Cases</b></h3>
-              <div className = "ContGrid3" style={{color: 'white', paddingBottom: '2em'}}>
-              <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
-                <img src={WagerIcon} style={{height: '15vh'}}/>
-                <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Any wager</b></p>
-                <p>Bet on any topic.</p>
-              </div>
-              <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
-                <img src={AllAgesIcon} style={{height: '15vh'}}/>
-                <p style={{fontSize: '1em', paddingTop: '1em'}}><b>All ages</b></p>
-                <p>Anybody can bets.</p>
-              </div>
-              <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
-                <img src={PrizesIcon} style={{height: '15vh'}}/>
-                <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Infinite prizes</b></p>
-                <p>Be creative with your bets.</p>
-              </div>
+                <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#F35151'}}><b>User Grupo & Cases</b></h3>
+                <div className = "ContGrid3" style={{color: 'white', paddingBottom: '2em'}}>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
+                  <img src={WagerIcon} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Any wager</b></p>
+                  <p>Bet on any topic.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
+                  <img src={AllAgesIcon} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>All ages</b></p>
+                  <p>Anybody can bets.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
+                  <img src={PrizesIcon} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Infinite prizes</b></p>
+                  <p>Be creative with your bets.</p>
+                </div>
               </div>
               <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
@@ -148,31 +142,29 @@ class Resume extends Component {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
-                <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
-                  <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
-                  <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
-                  <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
-                  <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
+                <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                  <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
+                  <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
+                    <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
+                    <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
+                    <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
+                    <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
+                  </div>
+                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                    <Link className="LinkStyle" to="/PCfolio.github.io/">
+                    <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                  </div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#F35151', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
 }

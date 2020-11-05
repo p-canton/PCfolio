@@ -13,7 +13,6 @@ import TyreImage from './images/TyreImage.png';
 import VredesteinVideo from './images/Vredestein.mp4';
 import VredIcon from './images/VredIcon.png';
 
-import ReactFullpage from "@fullpage/react-fullpage";
 import LogoPC from './images/pcIconN.png';
 import OnlineUserIcon from './images/OnlineUserIcon.png';
 import EcoIcon from './images/EcoIcon.png';
@@ -22,13 +21,7 @@ import ECommersIcon from './images/E-commersIcon.png';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["black", "white", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
+            <div style={{backgroundColor:"black"}}>
               <div className="section fp-auto-height">
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
@@ -55,7 +48,7 @@ class Resume extends Component {
                   <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"Vredestein brand management project"</p>
                   </div>
                 </div>
-              <div className="section">
+              <div style={{backgroundColor:"white"}}>
               <img className="imageProject" src={VredesteinCar}/>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
@@ -177,8 +170,8 @@ class Resume extends Component {
                     </div>
                 </div>
               </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
+              <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
                 <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
                 <div>
                   <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
@@ -193,14 +186,12 @@ class Resume extends Component {
                   <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                   <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#CE000C', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <Link className="LinkStyle" to="/PCfolio.github.io/">
+                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                </div>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
   }

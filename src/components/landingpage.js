@@ -28,7 +28,7 @@ class Landing extends Component {
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
-              <div className="section section fp-auto-height">
+              <div className="section fp-auto-height">
                 <div className = "MainFormat">
                 <img src={LogoPC} style={{height: '28vh'}}/>
                 <h1 className = "Tittle">UX / UI Designer</h1>

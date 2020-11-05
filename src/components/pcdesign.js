@@ -5,6 +5,9 @@ import AllBackgrounds from './images/AllBackgrounds.png';
 import AllIcons from './images/AllIcons.png';
 import PhoneWallpaper from './images/PhoneWallpaper.png';
 
+import PeopleImage from './images/PeopleImages.png';
+import CarImage from './images/CarImage.png';
+import AstronautImage from './images/AstronautImage.png';
 import BetsFriends2 from './images/BFscreens2.jpg';
 import BFmockupMb from './images/BFmockupMb.png';
 import LogoPC from './images/LogoPCpage.png';
@@ -13,11 +16,20 @@ import LogoNV from './images/LogoNV.png';
 import LogoGV from './images/LogoGV.png';
 import LogoUIN from './images/LogoUIN.png';
 import LogoLdng from './images/LogoLdng.png';
+import LogoCoffee from './images/LogoCoffee.png';
+import LogoFA from './images/LogoFA.png';
+import LogoFanta from './images/LogoFanta.png';
+import LogoMS from './images/LogoMS.png';
 import Island from './images/Island.jpg';
+import PCdesign from './images/PCdesign.png';
+import Berlin from './images/Berlin.png';
+import Amsterdam from './images/Amsterdam.png';
+import China from './images/China.png';
+import Rio from './images/Rio.png';
+import Desert from './images/Desert.png';
 
 import PCcard from './images/PCcard.png';
 
-import ReactFullpage from "@fullpage/react-fullpage";
 import BoostID from './images/BOOSTID.mp4';
 import ShareGo from './images/ShareGo.mp4';
 import PersonasIcon from './images/PersonasIcon.png';
@@ -31,40 +43,34 @@ import PCimageD from './images/PCimageD.jpg';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#0097a7", "#0097a7", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#0097a7"}}>
+              <div>
                 <div className = "MainFormat">
-                <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
-                  <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
-                    <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
-                      <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
-                    <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                  <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
+                    <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
+                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
+                      <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
+                        <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
+                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
+                      <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                    </div>
+                    <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                      <Link className="LinkStyle" to="/PCfolio.github.io/">
+                      <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
+                    </div>
+                    <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
+                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pctechnical">
+                        <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
+                        <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
+                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pctechnical">
+                        <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                    </div>
                   </div>
-                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                    <Link className="LinkStyle" to="/PCfolio.github.io/">
-                    <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
-                  </div>
-                  <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pctechnical">
-                    <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                  <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pctechnical">
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
-                  </div>
-                </div>
                   <img  src={LogoPC} style={{height: '30vh'}}/>
                   <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"The latest designs I had created."</p>
-                  </div>
                 </div>
-              <div className="section">
+              </div>
+              <div className="section fp-auto-height" id="section2" style={{height: '100vh'}}>
               <img className="imageProject" src={PCimageD}/>
               <div style={{backgroundColor: 'white'}}>
               <p className="TextFont PaddingFix" style={{textAlign: 'justify', color: 'black', paddingTop: '4vh'}}>
@@ -100,9 +106,9 @@ class Resume extends Component {
               </div>
               <div className = "ContGrid4-2" style={{color: 'white', paddingBottom: '2em'}}>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoNV} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Natural Value</b></p>
-                  <p>Sketching a logo that represents nature.</p>
+                  <img src={LogoFanta} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Fanta</b></p>
+                  <p>Redesigning Fanta logo.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoLdng} style={{height: '15vh'}}/>
@@ -110,9 +116,9 @@ class Resume extends Component {
                   <p>Testing with symbolic shapes and icons.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoUIN} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>UIN</b></p>
-                  <p>The union of the user, innovation, and nature.</p>
+                  <img src={LogoMS} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>MindScape</b></p>
+                  <p>MindScape company logo concept.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoGV} style={{height: '15vh'}}/>
@@ -120,6 +126,43 @@ class Resume extends Component {
                   <p>Personal logo designed for a friend.</p>
                 </div>
               </div>
+              <div className = "ContGrid4-2" style={{color: 'white', paddingBottom: '2em'}}>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoNV} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Natural Value</b></p>
+                  <p>Sketching a logo that represents nature.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoFA} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Healthy food</b></p>
+                  <p>Design a logo that represent healthy food.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoUIN} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>UIN</b></p>
+                  <p>The union of the user, innovation, and nature.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoCoffee} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Gamer</b></p>
+                  <p>Logo designed for a gaming brand.</p>
+                </div>
+              </div>
+                <h3 style={{textAlign: 'center', color: '#FFAD00'}}><b>Images</b></h3>
+                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <img src={PeopleImage} style={{width:'90%', borderRadius: '1em',textAlign: 'center'}}/></div>
+                <div className = "ContGrid2" style={{color: 'black', backgroundColor:'none'}}>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
+                    <img src={CarImage} style={{maxWidth: '100vh', width: '65%', height: 'auto', paddingTop: '4vh'}}/>
+                    </div>
+                  </div>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
+                    <img src={AstronautImage} style={{maxWidth: '100vh', width: '65%', height: 'auto', paddingTop: '4vh'}}/>
+                    </div>
+                  </div>
+                  </div>
               <div style={{backgroundColor: 'white'}}>
                 <img className="imageProject" src={AllBackgrounds} />
                 <div>
@@ -149,12 +192,11 @@ class Resume extends Component {
                 <img className="imageProject" src={AllIcons} />
               </div>
               </div>
-                <div className="textPadding">
-                  <h3 style={{textAlign: 'center', color: '#FFAD00'}}><b>Recopilation</b></h3>
+                <div className="textPadding" style={{backgroundColor:"#0097a7"}}>
+                  <h3 style={{textAlign: 'center', color: '#FFAD00', paddingTop:"1.5em"}}><b>Recopilation</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
                   Finally, I will like to show some other experiences and abilities that I had to develop inside the designing field, and I am looking forward to keeping practising on.
                   </p>
-                </div>
                 <div className = "ContGrid2" style={{color: 'black', paddingBottom:'4vh'}}>
                   <div>
                     <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>Mockup Experience</p>
@@ -169,37 +211,56 @@ class Resume extends Component {
                     </video>
                   </div>
                 </div>
-                <div className="textPadding" style={{paddingBottom: '4vh'}}>
+                <div className="textPadding" style={{paddingBottom: '8vh'}}>
                   <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}><b>Photography</b></p>
+                  <div className = "ContGrid2" style={{color: 'black', paddingBottom:'4vh'}}>
+                    <div style={{padding:"2em"}}>
+                    <img src={Berlin} style={{maxWidth: '60vh', width: '100%', height: 'auto', textAlign: 'left', borderRadius: '1em'}}/>
+                    </div>
+                    <div style={{padding:"2em"}}>
+                    <img src={China} style={{maxWidth: '60vh', width: '100%', height: 'auto', textAlign: 'left', borderRadius: '1em'}}/>
+                    </div>
+                  </div>
                   <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <img className="imageProject HidePhone" src={Island} style={{width:'95%', borderRadius: '1em',textAlign: 'center', maxHeight: '50vh'}}/>
-                  <img className="imageProject HidePC" src={Island} style={{width:'90%', borderRadius: '1em',textAlign: 'center', maxHeight: '20vh'}}/></div>
+                    <img className="imageProject HidePhone" src={Desert} style={{width:'95%', borderRadius: '1em',textAlign: 'center', maxHeight: '50vh'}}/>
+                    <img className="imageProject HidePC" src={Desert} style={{width:'90%', borderRadius: '1em',textAlign: 'center', maxHeight: '20vh'}}/>
+                  </div>
+                  <div className = "ContGrid2" style={{color: 'black', paddingBottom:'4vh', paddingTop:'4vh'}}>
+                    <div style={{padding:"2em"}}>
+                    <img src={Rio} style={{maxWidth: '60vh', width: '100%', height: 'auto', textAlign: 'left', borderRadius: '1em'}}/>
+                    </div>
+                    <div style={{padding:"2em"}}>
+                    <img src={Amsterdam} style={{maxWidth: '60vh', width: '100%', height: 'auto', textAlign: 'left', borderRadius: '1em'}}/>
+                    </div>
+                  </div>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <img className="imageProject HidePhone" src={Island} style={{width:'95%', borderRadius: '1em',textAlign: 'center', maxHeight: '50vh'}}/>
+                    <img className="imageProject HidePC" src={Island} style={{width:'90%', borderRadius: '1em',textAlign: 'center', maxHeight: '20vh'}}/>
+                  </div>
+                </div></div>
+                <div className="section fp-auto-height" style={{textAlign: "center",paddingBottom:"1em"}}>
+                  <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
+                  <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
+                    <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
+                    <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
+                    <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
+                    <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
+                  </div>
+                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                    <Link className="LinkStyle" to="/PCfolio.github.io/">
+                    <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                  </div>
                 </div>
-              </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
-                <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
-                  <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
-                  <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
-                  <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
-                  <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
-                </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
 }

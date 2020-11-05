@@ -1,4 +1,7 @@
-
+/* width */
+::-webkit-scrollbar {
+  width: 0vh;
+}
 .ProjectPic{
   width:25%;
   min-width:10vh;

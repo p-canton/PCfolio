@@ -13,8 +13,8 @@ import TriitIcon from './images/TriitIcon.png';
 import PostiImage from './images/PostiImage.png';
 import TriitVideo from './images/TriitV.mp4';
 
+import PostiBoxP from './images/PostiBoxP.png';
 import PostiIcon from './images/PostiIcon.png';
-import ReactFullpage from "@fullpage/react-fullpage";
 import LogoPC from './images/pcIconN.png';
 
 import PS1 from './images/PS1.png';
@@ -28,14 +28,8 @@ import ECommersIcon from './images/E-commersIcon.png';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#FF8000", "white", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#FF8000"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -61,7 +55,7 @@ class Resume extends Component {
                   <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"Developing a new IT service for Posti"</p>
                   </div>
                 </div>
-              <div className="section">
+              <div style={{backgroundColor:"white"}}>
               <img className="imageProject" src={PostiLock}/>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
@@ -136,7 +130,9 @@ class Resume extends Component {
                   <img src={PostiBox} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '4vh'}}/></div>
                   </div>
                   </div>
-                <div style={{backgroundColor: 'white'}}>
+
+                <div style={{backgroundColor: '#FF8000'}}>
+                <img className="imageProject" src={PostiBoxP}/>
                   <div style={{backgroundColor: '#FF8000'}}><div className="textPadding">
                   <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: 'white'}}><b>Process</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>The project intended to teach the
@@ -194,8 +190,8 @@ class Resume extends Component {
                     </div>
                 </div>
               </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
+              <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
                 <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
                 <div>
                   <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
@@ -210,14 +206,12 @@ class Resume extends Component {
                   <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                   <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FF8000', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <Link className="LinkStyle" to="/PCfolio.github.io/">
+                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                </div>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
   }

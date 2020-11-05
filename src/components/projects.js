@@ -4,6 +4,7 @@ import LogoPC from './images/pcIcon.png';
 import PabloPicture from './images/PabloPic1Copy.png';
 import Philips from './images/PhilipsIcon.png';
 import Everis from './images/EverisIcon.png';
+import Futury from './images/FuturyIcon.png';
 import PCicon from './images/pcIcon.png';
 import DocPDF from './Documents/PabloCanton-CV.pdf';
 import UTicon from './images/UTicon.png';
@@ -72,13 +73,23 @@ class Projects extends React.Component {
                         a backend or frontend. Keep scrolling for more information.
                         </p>
                         <h3 className = "Tittle" style={{color: 'black', fontSize:'2em', textAlign: 'center',}}>Experience</h3>
-                        <div className = "ContGrid3" style={{paddingBottom: '1em'}}>
+                        <div className = "ContGrid4-2" style={{paddingBottom: '1em'}}>
+                          <a className= "DivHover" href="https://www.futury.eu/themission/greenwork">
+                            <img src={Futury} style={{display: 'inline',height: '8vh'}}></img>
+                            <p style={{fontSize: '1.5em', paddingTop: '0.5em'}}><b>UX Designer</b></p>
+                            <p style={{fontSize: '1em', lineHeight: '80%'}}>Currently</p>
+                            <div class="overlay">
+                            <div><p>Integrate micro-learning into the daily life of blue-collar workers.</p>
+                              <p><b>+ Info</b></p>
+                            </div>
+                            </div>
+                          </a>
                           <a className= "DivHover" href="/PCfolio.github.io/pcwork">
                             <img src={Philips} style={{display: 'inline',height: '8vh'}}></img>
                             <p style={{fontSize: '1.5em', paddingTop: '0.5em'}}><b>UX Designer</b></p>
                             <p style={{fontSize: '1em', lineHeight: '80%'}}>6 months intern</p>
                             <div class="overlay">
-                            <div><p>internship designing a digital dashboard to manage the team mood.</p>
+                            <div><p>Internship designing a digital dashboard to manage the team mood.</p>
                               <p><b>+ Info</b></p>
                             </div>
                             </div>
@@ -189,7 +200,7 @@ class Projects extends React.Component {
                     <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                     <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
+                <button onClick={() => fullpageApi.moveTo(1, 2)} style={{background: 'none', border: 'none', padding: '1vh'}}>
                   <i class="fa fa-chevron-up fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>
                 </button>
               </div>

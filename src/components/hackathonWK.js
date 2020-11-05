@@ -8,7 +8,6 @@ import TechAdidas2 from './images/TechAdidas2.png';
 
 import ADMphone from './images/ADMphone.png';
 
-import ReactFullpage from "@fullpage/react-fullpage";
 import ADMpayment from './images/ADMpayment.jpeg';
 import ADMmockup from './images/ADMmockup.png';
 import ADMaIcon from './images/ADMaIcon.png';
@@ -31,14 +30,8 @@ import IBMIcon from './images/IBMIcon.png';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["#FF7171", "white", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"#FF7171"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -61,15 +54,16 @@ class Resume extends Component {
                   </div>
                 </div>
                   <img  src={ADMIcon} style={{height: '30vh'}}/>
-                  <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"The IoT shop of the future"</p>
+                  <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"The IoT bank of the future"</p>
                   </div>
                 </div>
-              <div className="section">
+              <div>
               <img className="imageProject" src={ADMpayment}/>
+              <div style={{backgroundColor: "white"}}>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
                   In May of 2017, a team of four students participated in a 48h hackathon in Madrid, where the team developed automatic distance machine <b>ADM</b>,
-                  an android application solution that uses beacons together <b>IBM</b> cloud solution for the bank sector. The solution aims to let the costumers from
+                  an android application solution that uses beacons together with <b>IBM</b> cloud solution for the bank sector. The solution aims to let the costumers from
                   a bank entity have a personalised treatment,  managing queue appointments and modernise the ATM user experience. With ADM, your costumers have personal
                   financial management (PFM) and experience banking differently.
                 </p>
@@ -128,14 +122,14 @@ class Resume extends Component {
                           and better customer experience. The flexibility and real-time data of the applications, let the clients control their appointment with the bank, helping
                           to make the process much appealing for the customer and bank.
                         </p>
-                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', paddingBottom: '2em',textAlign: 'justify', color: 'black'}}>
                         As a result of all this hard work, the team end up winning the <b>2nd place</b>.</p>
                       </div>
-                      <img className="imageProject" src={ADMphone} />
-                    </div>
-
+                    </div></div>
+                  <div style={{backgroundColor:"#FF7171"}}>
+                  <img className="imageProject" src={ADMphone} />
                   <div style={{backgroundColor: '#FF7171'}}><div className="textPadding">
-                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: '#FFAD00'}}><b>Tools</b></h3>
+                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2vh',textAlign: 'center', color: '#FFAD00'}}><b>Tools</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>For the team, this was the first hackathon
                   they participated. At this event, the team learned to implement new technologies and work as a team for the first time. During this process, these are the
                   following tools that were used by the team.</p></div>
@@ -189,9 +183,9 @@ class Resume extends Component {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
+              </div></div>
+              <div className="section fp-auto-height" style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
+                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>
                 <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
                 <div>
                   <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
@@ -206,14 +200,12 @@ class Resume extends Component {
                   <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
                   <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <Link className="LinkStyle" to="/PCfolio.github.io/">
+                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                </div>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
   }

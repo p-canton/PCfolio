@@ -7,7 +7,8 @@ import ArdLaser from './images/ArdLaser.png';
 
 import AllIcons from './images/AllIcons.png';
 import PhoneWallpaper from './images/PhoneWallpaper.png';
-
+import IfaImage from './images/IfaImage.png';
+import DDBBifa from './images/DDBBifa.png';
 import BetsFriends2 from './images/BFscreens2.jpg';
 import BFmockupMb from './images/BFmockupMb.png';
 import LogoPC from './images/LogoPCpageN.png';
@@ -17,10 +18,11 @@ import LogoGV from './images/LogoGV.png';
 import LogoUIN from './images/LogoUIN.png';
 import LogoLdng from './images/LogoLdng.png';
 import Island from './images/Island.jpg';
+import EverisImage from './images/EverisImage.png';
+import PhilipsBrush from './images/PhilipsBrush.png';
 
 import TwitterPh from './images/TwitterPh.png';
 
-import ReactFullpage from "@fullpage/react-fullpage";
 import ArduinoLaser from './images/ArduinoLaser.mp4';
 import ShareGo from './images/Share&go.mp4';
 import PersonasIcon from './images/PersonasIcon.png';
@@ -34,14 +36,8 @@ import PCimageT from './images/PCimageT.jpg';
 class Resume extends Component {
   render() {
     return (
-      <ReactFullpage
-        fitToSection = {true}
-        sectionsColor = {["black", "black", "white"]}
-        scrollOverflow = {true}
-        render={({ state, fullpageApi }) => {
-          return (
-            <div id="fullpage-wrapper">
-              <div className="section fp-auto-height">
+            <div style={{backgroundColor:"black"}}>
+              <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
@@ -72,7 +68,7 @@ class Resume extends Component {
               <div style={{backgroundColor: 'white'}}>
                 <p className="TextFont PaddingFix" style={{textAlign: 'justify', color: 'black', paddingTop: '4vh'}}>
                   My passion for technology motivates me to choose my studies on Computer Engineering at the Polytechnic University of Madrid, and since that moment, technology becomes
-                  one of my hobbies. After years of learning different computer science techniques and working experience, these are the results of some personals projects. On the other
+                  one of my hobbies. After years of learning different computer science techniques and working experience, these are the results of some projects. On the other
                   hand, this website is a representation of my technical knowledge.
                 </p>
               <h3 style={{textAlign: 'center', color: '#FFAD00'}}><b>Data Science</b></h3>
@@ -140,13 +136,54 @@ class Resume extends Component {
                   </div>
                 </div>
                 </div>
-                <p className="TextFont PaddingFix" style={{textAlign: 'justify', color: 'black'}}>
-                <b>Website</b></p>
-                <p className="TextFont PaddingFix" style={{textAlign: 'justify', color: 'black'}}>
-                Making use of my experience and skills doing websites, I participated in some project to develop websites using React-native. Additionally, making this website help me to keep learning more
-                and improve my knowledge and skills. My portfolio was the latest website I developed, to be able to show all my skills and previous works. At the image below, you can see some screenshots of
-                the previous website I developed or see this website that was also designed by me. </p><br/>
-                <img className="imageProject" src={PCwebImage} />
+                <img className="imageProject" src={EverisImage} />
+                <div className="textPadding" style={{paddingTop: '4vh'}}>
+                  <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                  Working at <a className = "LinkStyle" href="https://www.everis.com/global/en">Everis</a> headquarters in Spain, from September of 2017 to July of 2018, was my first job experiences as
+                  a Computer Science developer. I started at the company as an Intern and being able to work with them until I decided to start my new master abroad. During this
+                  period, I was designate to work with <a className = "LinkStyle" href="https://www.grupoifa.com/en/index.html">Grupo IFA</a>, one of their clients that have a strong
+                  position in the retail market in Spain. The main objective of the project consists of migrating all the data of their currents database and combine it in
+                  a web application with its suppliers and associates database.</p>
+                </div>
+                <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#006A78'}}><b>Computer Science developer</b></h3>
+                      <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                      <b>Front-end</b></p>
+                      <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
+                      For the front-end, my main task was to create the new interface that Grupo IFA will use to organise the suppliers and associates communications. To develop the
+                      user interface, the team created low and high fidelity prototypes, test them, and make the changes that the client needs. Them developing with JavaScrip, HTML and
+                      CSS, I created the screen, and submit the final resolution. To guarantee the best result, after the development of each phase, the team conducted a usability testing
+                      to make the last changes to the web application.
+                      </p>
+                    </div>
+                  </div>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div>
+                  <img src={IfaImage} style={{maxWidth: '100vh', width: '60%', height: 'auto', paddingTop: '4vh'}}/></div>
+                  </div>
+                  </div>
+                  <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '2em'}}>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                      <div>
+                      <img src={DDBBifa} style={{maxWidth: '100vh', width: '70%', height: 'auto', paddingTop: '4vh'}}/>
+                      </div>
+                    </div>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                      <div>
+                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                        <b>Back-end</b></p>
+                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
+                        For the back-end, my main task was to migrate all the internal data fo the company into a new Oracle database, cleaning from all the information that was
+                        irrelevant for the new interface. Meantime, I was in charge to merge the old information with the new one or create SQL functions, for the interaction of the
+                        users with the data, guarantee the security credential and data recovery. Finally, to display the tables and the information, I make use of javascript and
+                        Oracle web development interface to connect the web app with the client database.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <img className="imageProject" src={PCwebImage} />
               </div>
               </div>
                 <div className="textPadding">
@@ -154,12 +191,21 @@ class Resume extends Component {
                 <div className = "ContGrid2" style={{color: 'white', backgroundColor:'black', paddingBottom:'4vh', paddingTop: '4vh'}}>
                   <div>
                     <h3 className = "HidePC" style={{textAlign: 'center', color: '#FFAD00'}}><b>Arduino</b></h3>
-                    <video controls style={{width:'90%', borderRadius: '1em'}}>
-                      <source src={ArduinoLaser} type="video/mp4"/>
-                    </video>
+                    <img src={PhilipsBrush} style={{maxWidth: '80vh', width: '90%', height: 'auto', paddingTop: '2vh'}}/>
                   </div>
                   <div>
                     <h3 className = "HidePhone" style={{textAlign: 'center', color: '#FFAD00'}}><b>Arduino</b></h3>
+                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2em', textAlign: 'justify', color: 'white'}}>
+                    <b>Haptic toolkit</b></p>
+                    <br/><p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
+                    At the design department of Philips, they have to work on the ideation and design of a new product every year. But unfortunately for some designer need support from the technical department to try
+                    their new ideas. To solve this problem, I collaborated in a project that its goal is to design a device that helps the designer to work with haptic feedback and don't need help from the technical
+                    department. Using an Arduino and a vibration motor, the team is working on creating a platform where the designer can test the different haptic responses avoiding to use the code o create the circuit.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2em', textAlign: 'justify', color: 'white'}}>
+                    <b>Ultrasonic sensor controller</b></p>
                     <br/><p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
                       When I started my master, my curiosity on how companies can adopt new technologies to improve user usability increased. To experience this new concept, two friends and I decided to create an
                       Arduino solution that helps people to interact with the technology using their hand's movement. Before starting with the project, we research similar projects and tested different solutions,
@@ -168,33 +214,36 @@ class Resume extends Component {
                       result of the project.
                     </p>
                   </div>
+                  <div>
+                    <video controls style={{width:'90%', borderRadius: '1em'}}>
+                      <source src={ArduinoLaser} type="video/mp4"/>
+                    </video>
+                  </div>
                 </div>
                 <img className="imageProject" src={ArdLaser} />
-              </div>
-              <div className="section fp-auto-height" style={{textAlign: "center"}}>
-                <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>
-                <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
-                  <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
-                  <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
-                  <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
-                <div>
-                  <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
-                  <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
+                <div className="section fp-auto-height" style={{textAlign: "center", backgroundColor:"white", paddingBottom:"1em"}}>
+                  <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'2vh'}}>Feel free to contact:</p>
+                  <div className = "ContGrid4-1" style={{borderRadius: '2em'}}>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}> <a className="LinkStyle" href="mailto:pablocg1995@gmail.com">
+                    <i class="fa fa-envelope fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>pablocg1995@gmail.com</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="tel:+34676328005">
+                    <i class="fa fa-phone fa-lg" style={{color: '#0097a7 ', fontSize:'3vh', padding:'1vh'}}></i>+34 676 32 80 05</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://www.linkedin.com/in/p-canton/">
+                    <i class="fa fa-linkedin fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>linkedin.com/p-canton</a></p></div>
+                  <div>
+                    <p class="ButtonLine" style={{textAlign: "center"}}><a className="LinkStyle" href="https://github.com/p-canton">
+                    <i class="fa fa-github fa-lg" style={{color: '#0097a7', fontSize:'3vh', padding:'1vh'}}></i>github.com/p-canton</a></p></div>
+                  </div>
+                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                    <Link className="LinkStyle" to="/PCfolio.github.io/">
+                    <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                  </div>
                 </div>
-                <button onClick={() => fullpageApi.moveTo(1, 0)} style={{background: 'none', border: 'none', padding: '1vh'}}>
-                <i class="fa fa-chevron-up fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>
-                </button>
               </div>
             </div>
-          );
-        }}
-      />
     );
   }
 }
