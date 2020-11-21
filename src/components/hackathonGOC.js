@@ -33,10 +33,10 @@ class Resume extends Component {
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/betsFriends">
+                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonWK">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
                       <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/betsFriends">
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonWK">
                     <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
@@ -44,10 +44,10 @@ class Resume extends Component {
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pcdesign">
+                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/iande">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pcdesign">
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/iande">
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                 </div>

@@ -1,173 +1,188 @@
 import React, { Component } from 'react';
 import { Layout, Navigation, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import SqBondImage from './images/SqBondImage.png';
+import PostiMock from './images/SqBondProto.png';
+import SqBondCJ from './images/SqBondCJ.png';
+import PostiAll from './images/PostiAll.jpg';
+import SearchIcon from './images/SearchIcon.png';
+import IdeaIcon from './images/IdeaIcon.png';
+import ValidationIcon from './images/ValidateIcon.png';
+import ProtoIcon from './images/ProtoIcon.png';
+import SqBondUP from './images/SqBondUP.png';
+import TriitVideo from './images/SqBond.mp4';
+import BCMSqBond from './images/BCMSqBond.png';
 
-import NedapImage from './images/NedapImage.png';
-import EliasImage from './images/EliasImage.png';
-import UnisveImage from './images/UnisveImage.png';
-import BoostidImage from './images/BoostidImage.png';
-import ValueCanvas from './images/Ecosystem.png';
-import InternalDev from './images/InternalDev.png';
-import PostiImage from './images/PostiImage.png';
-import BidComp from './images/BidComp.png';
-import UnisveIcon from './images/UnisveIcon.png';
-import SlushImage from './images/SlushImage.png';
+import SqBondScreens from './images/SqBondScreens.png';
+import SqBondIcon from './images/SqBondIcon.png';
+import LogoPC from './images/pcIconN.png';
 
-import IandEicon from './images/IandEicon.png';
-
+import OnlineUserIcon from './images/HealthIcon.png';
+import EcoIcon from './images/BrainIcon.png';
+import ECommersIcon from './images/BusinessIcon.png';
 
 class Resume extends Component {
   render() {
     return (
-            <div style={{backgroundColor:"#FFFFEF"}}>
+            <div style={{backgroundColor:"#23394C"}}>
               <div>
                 <div className = "MainFormat">
-                <div className = "ContGrid3Bar" style={{color: 'black', paddingBottom: '4em'}}>
-                  <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonWK">
-                    <p style={{color: 'black', fontSize:'3vh', textAlign: 'left'}}>
-                      <i class="fa fa-chevron-left fa-lg" style={{color: '#56CAD8', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonWK">
-                    <i class="fa fa-chevron-left fa-lg" style={{color: '#56CAD8', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
+                <div style={{fontSize: '1.5em', textAlign: 'left', color: 'white'}}>
+                     <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
+                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
+                       <i class="fa fa-chevron-left fa-lg" style={{color: '#FF5E00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
+                     <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
+                     <i class="fa fa-chevron-left fa-lg" style={{color: '#FF5E00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                   </div>
+                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'white'}}>
+                     <Link className="LinkStyle" to="/PCfolio.github.io/">
+                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
+                   </div>
+                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'white'}}>
+                   <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pcwork">
+                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
+                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FF5E00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
+                     <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pcwork">
+                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FF5E00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                   </div>
+                </div>
+                  <img  src={SqBondIcon} style={{height: '30vh'}}/>
+                  <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"Much more than an experience."</p>
+                  </div>
+                </div>
+              <div style={{backgroundColor:"white"}}>
+              <img className="imageProject" src={SqBondImage}/>
+              <div className="textPadding" style={{paddingTop: '4vh'}}>
+                <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                Faced with the situation of social isolation that we are experiencing in 2020, human contact has drastically changed. Due to these changes,
+                I decided to create a concept that would help people in social distancing to keep in touch with their friends and family. These are the main
+                problems social distancing brings on people:
+                </p>
+              </div>
+              <div className="textPadding" style={{textAlign: 'center', paddingTop: '2em'}}>
+                <div className = "ContGrid3" style={{color: 'white', paddingBottom: '2em'}}>
+                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                    <img src={OnlineUserIcon} style={{height: '10vh'}}/>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Lifestyle</b></p>
+                    <p>Negative effects on lifestyle</p>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                    <Link className="LinkStyle" to="/PCfolio.github.io/">
-                    <p style={{color: 'black', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
+                    <img src={EcoIcon} style={{height: '10vh'}}/>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Psychology</b></p>
+                    <p>Increases stress in people</p>
                   </div>
-                  <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pcwork">
-                    <p style={{color: 'black', fontSize:'3vh', textAlign: 'right'}}>Next
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#56CAD8', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pcwork">
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#56CAD8', fontSize:'3vh', padding: '1vh'}}></i></Link>
-                  </div>
-                </div>
-                  <img  src={IandEicon} style={{height: '30vh'}}/>
-                  <p className = "SubTittle" style={{color: 'black', paddingBottom: '4vh'}}>"The latest projects I cooperated to improve the company market strategy and or related to entrepreneurship."</p>
+                  <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                    <img src={ECommersIcon} style={{height: '10.1vh'}}/>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Business</b></p>
+                    <p>~40% of turnover fall</p>
                   </div>
                 </div>
-              <div>
-              <img className="imageProject" src={NedapImage}/>
-              <div className="textPadding" style={{paddingTop: '4vh', backgroundColor:"white"}}>
-                <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
-                  After two years in my master in human-computer interaction and design, I could colaborate with diferents companies to imrpove their market strategy. I was able to work with big corporations, little
-                  companies and create my own startup experience, so I decided to present some of the results of some projects. Thaks to these colaborations, I was able to imrpove my knowledge on how a busines works
-                  and all the needed skills that a company requires to succes.
-                </p>
+              </div>
               <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '4vh'}}>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <img src={ValueCanvas} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '2vh'}}/>
-                    <p className="TextFont" style={{paddingTop: '1em', textAlign: 'center', color: '#BDBDBD'}}>Dutch healthcare ecosystem</p>
-                  </div>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <img className="HidePhone" src={PostiMock} style={{maxWidth: '100vh', width: '60%', height: 'auto', paddingTop: '2vh'}}/>
+                  <img className="HidePC" src={PostiMock} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '2vh'}}/></div>
+
                 </div>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                   <div>
-                    <h3 style={{textAlign: 'center', color: '#56CAD8'}}><b>New Market Segment</b></h3>
+                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Problem statement</b></h3>
                     <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      During this project, a team of five students have to define a product-market fit for DigiRate, a new rating software for hospitals developed by Nedap. The company provided the team
-                      with all the needed information and the features of the product, used to generate the research questions. With all that information, some interviews and researching, the team decided
-                      to focus on the general practitioners as the new market segment.
-                    </p><br/>
+                    Sq-Bond designs focus on people in social distancing, who struggle to find a balanced lifestyle without losing contact with the outside.
+                    Our application connects them with their friends, family or new contacts promoting unique, shared and interactive activities.
+                    </p>
                     <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      To bring more insight into Nedat, the team created a document that reflects all the work and added some suggestions to start the launch of the product. Some of the strategies and methods
-                      shared with the company were the affinity Mapping, Value proposition Canvas, the definition of the products market fit and the journey map of user and costumers.
+                    Also, we help restaurants and businesses affected by social distancing. With SQ-Bond, the local shops will be able to offer unique
+                    experiences to their clients, increase the chances of finding new clients and increase their sales.
                     </p>
                   </div>
                 </div>
                 </div>
-              </div>
-              <img className="imageProject" src={EliasImage}/>
-              <div className = "ContGrid2" style={{color: 'black', backgroundColor:'#FFFFEF', paddingBottom: '4vh'}}>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#56CAD8'}}><b>Market Expansion</b></h3>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      During this project, a team of four students have to design a strategy to launch the product of Elsa, an AI robot that helps kids to learn a new language, in a new market. The company provided
-                      the team with all the needed information and the features of the product, used to find the product-market fit. With all that information, some interviews and researching, the team decided to
-                      present a strategic expansion of 3 years. This go-to-market plan started on the North of Europe, and after consolidating their position in Europe, launch into China.
-                    </p>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      To bring more insight into the company, the team created a document that reflects all the work and added some suggestions to start the launch into the new markets. Some of the strategies and
-                      methods shared with the company were the market strategy, go market plan, risk analysis, internal development road, financial strategy and sales model. Inside the go-to-market plan, the team
-                      has into consideration the geographical market, vertical market, product development, product development, sales, partnerships and marketing.
-                    </p>
+                <img className="imageProject" src={SqBondUP} />
+                <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Sq-Bond</b></h3>
+                      <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
+                      Unlike the competition, Sq-Bond offers a personalized experience on every shipment. By scanning the QR code, the app will guide step by step
+                      on how the user can enjoy the experiences and share it during the video call. One possible scenario is a digital dinner, where each user will
+                      have to cook while doing interactive games and sharing their progress. At the end of everything, they will be able to share their result in
+                      Sq-Bond or social media.
+                      </p>
+                    </div>
+                  </div>
+                  <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <div>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Business</b></h3>
+                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
+                        Sq-Bond launch as an additional service to current home delivery businesses. In this way, you will begin to attract new users while developing your own logistics plan.
+                        Once the platform/app reaches this maturity, it will be possible to implement new technologies such as collaborative calls in VR/AR, automation/AI of some experiences
+                        or development of new services such as virtual events or subscriptions. Adding all these new features we guarantee the evolution of Sq-Bond for the next 10 years.
+                        </p>
+                    </div>
+                    </div>
+                  </div>
+                  <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                      <div>
+                        <img src={SqBondCJ} style={{maxWidth: '100vh', width: '90%', height: 'auto', paddingTop: '4vh'}}/>
+                        <p className="TextFont" style={{padding: '2em', paddingLeft: '2em', textAlign: 'center', color: '#BDBDBD'}}>Customer Journey</p>
+                      </div>
+                    </div>
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                      <div>
+                        <img src={BCMSqBond} style={{maxWidth: '100vh', width: '90%', height: 'auto', paddingTop: '4vh'}}/>
+                        <p className="TextFont" style={{padding: '2em', paddingLeft: '2em', textAlign: 'center', color: '#BDBDBD'}}>Business Model Canvas</p>
+                      </div>
                   </div>
                 </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <img src={InternalDev} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '2vh'}}/>
-                    <p className="TextFont" style={{paddingTop: '1em', textAlign: 'center', color: '#BDBDBD'}}>Internal development roadmap</p>
-                  </div>
+
+                <div style={{backgroundColor: '#23394C'}}>
+                <img className="imageProject" src={SqBondScreens}/>
+                  <div style={{backgroundColor: '#23394C'}}><div className="textPadding">
+                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: 'white'}}><b>Result</b></h3>
+                  <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
+                  Sq-Bond should be a simple application that seeks to offer unique experiences to those people who are in social distancing. The platform must have a
+                  strong presence in social media and provide experiences that encourage communication between friends and entertainment. The volume of users who continue
+                  to use the application will be taken into account to evaluate the success and to see the results of the experiences that are more popular among users.
+                  These are the following process that I used for the development of the project:</p></div>
+                  <div className = "ContGrid4-2" style={{color: 'white', backgroundColor: '#23394C', paddingTop: '3vh'}}>
+                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
+                      <img src={SearchIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Problem</b></p>
+                      <p style={{lineHeight: '80%'}}>Research</p>
+                    </div>
+                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
+                      <img src={IdeaIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Ideation</b></p>
+                      <p style={{lineHeight: '80%'}}>Double diamond</p>
+                    </div>
+                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
+                      <img src={ValidationIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Validation</b></p>
+                      <p style={{lineHeight: '80%'}}>Usability testing</p>
+                    </div>
+                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
+                      <img src={ProtoIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Prototype</b></p>
+                      <p style={{lineHeight: '80%'}}>Figma</p>
+                    </div>
+                  </div></div>
+                    <div className="HidePC" style={{color: 'white', paddingBottom: '4em',backgroundColor:'#23394C', textAlign: 'center'}}>
+                      <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>Prototype video</p>
+                      <video controls style={{width:'90%', borderRadius: '1em'}}>
+                        <source src={TriitVideo} type="video/mp4"/>
+                      </video>
+                    </div>
+                    <div className="HidePhone" style={{color: 'white', paddingBottom: '4em',backgroundColor:'#23394C', textAlign: 'center'}}>
+                      <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>Prototype video</p>
+                      <video controls style={{width:'70%', borderRadius: '1em'}}>
+                        <source src={TriitVideo} type="video/mp4"/>
+                      </video>
+                    </div>
                 </div>
-              </div>
-              <img className="imageProject" src={BoostidImage}/>
-              <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '4vh'}}>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <img src={BidComp} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '2vh'}}/>
-                    <p className="TextFont" style={{paddingTop: '1em', textAlign: 'center', color: '#BDBDBD'}}>Competitors map</p>
-                  </div>
-                </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#56CAD8'}}><b>Startup Experience</b></h3>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      During six months, a team of five students have to create and launch a new company. The team created Boostid, a financial application for micro-business that use AI to boost their business. The
-                      team works harder together searching and interviewing until they find a common problem and passion in the project. With all that information and validating the idea, the team formulated the first
-                      step that Boostid need to do to succeed. Boostid first realise was planned to be done at the Finnish market, getting advantage of more than 283000 micro-business inside of the country.
-                    </p>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                      To prepare the next step of the startup, the team created a document that reflects all the previous work. Also, attached some guidelines on the paper for the development of the business. Some of
-                      the strategies and methods shared on the paper were the market strategy, go market plan, risk analysis, competence analysis, business canvas model, business value model, internal development road,
-                      financial strategy and sales model. Inside the go-to-market plan, the team has into consideration the geographical market, vertical market, product development, product development, sales,
-                      partnerships and marketing.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <img className="imageProject" src={UnisveImage}/>
-              <div className = "ContGrid2" style={{color: 'black', backgroundColor:'#FFFFEF', paddingBottom: '4vh'}}>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#56CAD8'}}><b>Company consultancy</b></h3>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                    During this project, a team of four students have to design a strategy to improve the business model of Uni.S.Ve, a little traditional architecture business from Venice. The company provided the team
-                    with all the needed information and the current situation of the company, used to find the changes the company needs. With all that information, some interviews and researching, the team decided to
-                    present a strategy focussed on three aspects of the company. The proposed modifications occurred at the company structure, improving the project management, and planning new business development.
-                    </p>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                    To bring more insight into the company, the team created a document that reflects all the work and added some suggestions to start the launch into the new markets. Some of the strategies and methods
-                    shared with the company were Efficient managemnet methods, process enabling, structure modifications, supportive tools and plan vision. Other information that the team facilitated was a market strategy,
-                    risk analysis, internal development road, partnerships, marketing, financial strategy and sales model.
-                    </p>
-                  </div>
-                </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                    <img src={UnisveIcon} style={{maxWidth: '100vh', width: '80%', height: 'auto', paddingTop: '2vh'}}/>
-                  </div>
-                </div>
-              </div>
-              <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '2em'}}>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                  <img src={SlushImage} style={{maxWidth: '100vh', width: '55%', height: 'auto', paddingTop: '4vh'}}/>
-                  </div>
-                </div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div>
-                  <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#56CAD8'}}><b>Slush</b></h3>
-                    <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
-                    <a className = "LinkStyle" href="https://www.slush.org/">Slush</a> is a not-for-profit event that takes place in Helsinki, with the purpose of help startups or
-                    new technologies to facilitate meetings with investors and create a worldwide startup community. During these days, I was assigned with some task to help the crew and
-                    have some freedom to visit enjoy the event and visit the different pieces. I decided to join as a volunteer because since I started my bachelor, I was interested in
-                    technology and the world of the startups. For that reason, I decided to enrol as a volunteer and has de opportunity to experience this huge opportunity, and have new
-                    connections.
-                    </p>
-                  </div>
-                </div>
-              </div>
               </div>
               <div style={{textAlign: "center",paddingBottom:"1em", backgroundColor:"white"}}>
                 <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'wvh'}}>Feel free to contact:</p>

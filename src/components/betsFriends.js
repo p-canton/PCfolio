@@ -35,10 +35,10 @@ class Resume extends Component {
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
+                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/pcdesign">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#F35151', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                  <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
+                  <Link className="LinkStyle HidePC" to="/PCfolio.github.io/pcdesign">
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#F35151', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                 </div>

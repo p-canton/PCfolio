@@ -27,7 +27,10 @@ import Amsterdam from './images/Amsterdam.png';
 import China from './images/China.png';
 import Rio from './images/Rio.png';
 import Desert from './images/Desert.png';
-
+import LogoOptimo from './images/LogoOptimo.png';
+import LogoRady from './images/LogoRady.png';
+import LogoMG95 from './images/LogoMG95.png';
+import Logo95MG from './images/Logo95MG.png';
 import PCcard from './images/PCcard.png';
 
 import BoostID from './images/BOOSTID.mp4';
@@ -48,10 +51,10 @@ class Resume extends Component {
                 <div className = "MainFormat">
                   <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                     <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
+                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/betsFriends">
                       <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
                         <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
+                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/betsFriends">
                       <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
                     </div>
                     <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
@@ -128,14 +131,14 @@ class Resume extends Component {
               </div>
               <div className = "ContGrid4-2" style={{color: 'white', paddingBottom: '2em'}}>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoNV} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Natural Value</b></p>
-                  <p>Sketching a logo that represents nature.</p>
+                  <img src={LogoOptimo} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Optimo</b></p>
+                  <p>Logo for a B2B startup.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoFA} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Healthy food</b></p>
-                  <p>Design a logo that represent healthy food.</p>
+                  <img src={LogoRady} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Rady</b></p>
+                  <p>Logo for new bank service.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoUIN} style={{height: '15vh'}}/>
@@ -146,6 +149,28 @@ class Resume extends Component {
                   <img src={LogoCoffee} style={{height: '15vh'}}/>
                   <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Gamer</b></p>
                   <p>Logo designed for a gaming brand.</p>
+                </div>
+              </div>
+              <div className = "ContGrid4-2" style={{color: 'white', paddingBottom: '2em'}}>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoNV} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Natural Value</b></p>
+                  <p>Sketching a logo that represents nature.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoFA} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Healthy food</b></p>
+                  <p>Design a logo that represent healthy food.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoMG95} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>M95</b></p>
+                  <p>Combination of the letter 'm' and number 95.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={Logo95MG} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Mariogolli</b></p>
+                  <p>Personal logo with a handwriting style.</p>
                 </div>
               </div>
                 <h3 style={{textAlign: 'center', color: '#FFAD00'}}><b>Images</b></h3>

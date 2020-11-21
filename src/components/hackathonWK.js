@@ -3,8 +3,6 @@ import { Layout, Navigation, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import UWeekendAll from './images/UWeekendAll.jpg';
 import UWeekendWin from './images/UWeekendWin.jpg';
-import TechAdidas1 from './images/TechAdidas1.png';
-import TechAdidas2 from './images/TechAdidas2.png';
 
 import ADMphone from './images/ADMphone.png';
 
@@ -46,10 +44,10 @@ class Resume extends Component {
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/iande">
+                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/iande">
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
                     <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                 </div>

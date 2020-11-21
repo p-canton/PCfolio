@@ -74,7 +74,7 @@ class Resume extends Component {
               <h3 style={{textAlign: 'center', color: '#FFAD00'}}><b>Data Science</b></h3>
               <div className = "ContGrid2" style={{color: 'white', paddingBottom: '2em'}}>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={TwitterPh} style={{maxWidth: '100vh', width: '80%', height: 'auto'}}/>
+                  <img src={TwitterPh} style={{maxWidth: '100vh', width: '70%', height: 'auto'}}/>
                 </div>
                 <div style={{paddingBottom: '4em'}}>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>

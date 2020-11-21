@@ -53,6 +53,9 @@ class Landing extends Component {
               </div>
               <div className="section">
               <Navigation style={{display: 'inline'}}>
+                  <Link to="/PCfolio.github.io/iande"><img className="ProjectPic" src={IandE}/></Link>
+              </Navigation>
+              <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/pcwork"><img className="ProjectPic" src={Work}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
@@ -65,9 +68,6 @@ class Landing extends Component {
                   <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PCfolio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
-              </Navigation>
-              <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
@@ -76,7 +76,6 @@ class Landing extends Component {
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
               </Navigation>
-
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/vredestein"><img className="ProjectPic" src={Vredestein}/></Link>
               </Navigation>
@@ -87,9 +86,8 @@ class Landing extends Component {
                   <Link to="/PCfolio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PCfolio.github.io/iande"><img className="ProjectPic" src={IandE}/></Link>
+                  <Link to="/PCfolio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>
               </Navigation>
-
                 </div>
                 <div className="section fp-auto-height" style={{textAlign: "center"}}>
                   <p className = "SubTittle" style={{paddingTop: '4vh', fontSize:'3vh'}}>Feel free to contact:</p>

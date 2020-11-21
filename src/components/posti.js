@@ -17,10 +17,6 @@ import PostiBoxP from './images/PostiBoxP.png';
 import PostiIcon from './images/PostiIcon.png';
 import LogoPC from './images/pcIconN.png';
 
-import PS1 from './images/PS1.png';
-import PS2 from './images/PS2.png';
-import PS3 from './images/PS3.png';
-import PS4 from './images/PS4.png';
 import OnlineUserIcon from './images/OnlineUserIcon.png';
 import EcoIcon from './images/EcoIcon.png';
 import ECommersIcon from './images/E-commersIcon.png';
