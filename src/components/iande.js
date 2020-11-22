@@ -146,7 +146,8 @@ class Resume extends Component {
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
                   Sq-Bond should be a simple application that seeks to offer unique experiences to those people who are in social distancing. The platform must have a
                   strong presence in social media and provide experiences that encourage communication between friends and entertainment. The volume of users who continue
-                  to use the application will be taken into account to evaluate the success and to see the results of the experiences that are more popular among users.
+                  to use the application will be taken into account to evaluate the success and to see the results of the experiences that are more popular among users (
+                  <a className = "LinkStyle" style={{color: 'white'}} href="https://www.figma.com/proto/Ya6QVoHwVKgwNZX9zyLTOe/Sq-Bond?node-id=3%3A0&scaling=scale-down">Try the prototype clicking here</a>).
                   These are the following process that I used for the development of the project:</p></div>
                   <div className = "ContGrid4-2" style={{color: 'white', backgroundColor: '#23394C', paddingTop: '3vh'}}>
                     <div style={{fontSize: '1.5em', textAlign: 'center'}}>
