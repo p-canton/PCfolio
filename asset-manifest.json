@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PCfolio.github.io/static/css/main.4fb0a4fd.chunk.css",
-    "main.js": "/PCfolio.github.io/static/js/main.48dc75dd.chunk.js",
-    "main.js.map": "/PCfolio.github.io/static/js/main.48dc75dd.chunk.js.map",
+    "main.js": "/PCfolio.github.io/static/js/main.50ce1b8c.chunk.js",
+    "main.js.map": "/PCfolio.github.io/static/js/main.50ce1b8c.chunk.js.map",
     "runtime-main.js": "/PCfolio.github.io/static/js/runtime-main.4c729478.js",
     "runtime-main.js.map": "/PCfolio.github.io/static/js/runtime-main.4c729478.js.map",
     "static/css/2.96f91344.chunk.css": "/PCfolio.github.io/static/css/2.96f91344.chunk.css",
     "static/js/2.2daa3ca4.chunk.js": "/PCfolio.github.io/static/js/2.2daa3ca4.chunk.js",
     "static/js/2.2daa3ca4.chunk.js.map": "/PCfolio.github.io/static/js/2.2daa3ca4.chunk.js.map",
     "index.html": "/PCfolio.github.io/index.html",
-    "precache-manifest.fc41c75338ff64a920c887901f91615d.js": "/PCfolio.github.io/precache-manifest.fc41c75338ff64a920c887901f91615d.js",
+    "precache-manifest.249407137769c4fcd12ab830333a6fbd.js": "/PCfolio.github.io/precache-manifest.249407137769c4fcd12ab830333a6fbd.js",
     "service-worker.js": "/PCfolio.github.io/service-worker.js",
     "static/css/2.96f91344.chunk.css.map": "/PCfolio.github.io/static/css/2.96f91344.chunk.css.map",
     "static/css/main.4fb0a4fd.chunk.css.map": "/PCfolio.github.io/static/css/main.4fb0a4fd.chunk.css.map",
@@ -67,7 +67,7 @@
     "static/media/E-commersIcon.png": "/PCfolio.github.io/static/media/E-commersIcon.a4ce8fb2.png",
     "static/media/EITicon.png": "/PCfolio.github.io/static/media/EITicon.9ab4cc98.png",
     "static/media/Educo.png": "/PCfolio.github.io/static/media/Educo.6414c9f0.png",
-    "static/media/EducoMock.png": "/PCfolio.github.io/static/media/EducoMock.faf59450.png",
+    "static/media/EducoMock.png": "/PCfolio.github.io/static/media/EducoMock.b5d3bea6.png",
     "static/media/EstimoteIcon.png": "/PCfolio.github.io/static/media/EstimoteIcon.8c4981bb.png",
     "static/media/EverisIcon.png": "/PCfolio.github.io/static/media/EverisIcon.71cc8d65.png",
     "static/media/EverisImage.png": "/PCfolio.github.io/static/media/EverisImage.dfe3309a.png",
@@ -200,6 +200,6 @@
     "static/css/2.96f91344.chunk.css",
     "static/js/2.2daa3ca4.chunk.js",
     "static/css/main.4fb0a4fd.chunk.css",
-    "static/js/main.48dc75dd.chunk.js"
+    "static/js/main.50ce1b8c.chunk.js"
   ]
 }
