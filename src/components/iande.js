@@ -88,7 +88,7 @@ class Resume extends Component {
                 </div>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                   <div>
-                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Problem statement</b></h3>
+                    <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#FF5E00'}}><b>Problem statement</b></h3>
                     <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
                     Sq-Bond designs focus on people in social distancing, who struggle to find a balanced lifestyle without losing contact with the outside.
                     Our application connects them with their friends, family or new contacts promoting unique, shared and interactive activities.
@@ -104,7 +104,7 @@ class Resume extends Component {
                 <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
                   <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <div>
-                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Sq-Bond</b></h3>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#FF5E00'}}><b>Sq-Bond</b></h3>
                       <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
                       Unlike the competition, Sq-Bond offers a personalized experience on every shipment. By scanning the QR code, the app will guide step by step
                       on how the user can enjoy the experiences and share it during the video call. One possible scenario is a digital dinner, where each user will
@@ -115,7 +115,7 @@ class Resume extends Component {
                   </div>
                   <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <div>
-                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#23394C'}}><b>Business</b></h3>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#FF5E00'}}><b>Business</b></h3>
                         <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
                         Sq-Bond launch as an additional service to current home delivery businesses. In this way, you will begin to attract new users while developing your own logistics plan.
                         Once the platform/app reaches this maturity, it will be possible to implement new technologies such as collaborative calls in VR/AR, automation/AI of some experiences
@@ -142,7 +142,7 @@ class Resume extends Component {
                 <div style={{backgroundColor: '#23394C'}}>
                 <img className="imageProject" src={SqBondScreens}/>
                   <div style={{backgroundColor: '#23394C'}}><div className="textPadding">
-                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: 'white'}}><b>Result</b></h3>
+                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: '#FF5E00'}}><b>Result</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>
                   Sq-Bond should be a simple application that seeks to offer unique experiences to those people who are in social distancing. The platform must have a
                   strong presence in social media and provide experiences that encourage communication between friends and entertainment. The volume of users who continue

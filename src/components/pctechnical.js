@@ -148,7 +148,7 @@ class Resume extends Component {
                 <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
                   <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <div>
-                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#006A78'}}><b>Computer Science developer</b></h3>
+                      <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#FFAD00'}}><b>Computer Science developer</b></h3>
                       <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
                       <b>Front-end</b></p>
                       <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>

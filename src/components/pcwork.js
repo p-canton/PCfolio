@@ -104,7 +104,7 @@ class Resume extends Component {
               <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white', paddingBottom: '4vh'}}>
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                   <div>
-                  <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#006A78'}}><b>Design</b></h3>
+                  <h3 style={{paddingTop: '1em',textAlign: 'center', color: '#FFAD00'}}><b>Design</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
                   <b>Research</b></p>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify'}}>
@@ -155,7 +155,7 @@ class Resume extends Component {
                 <div style={{backgroundColor: '#2770FA', paddingBottom: '8vh'}}>
                 <img className="imageProject" src={MoodHome} />
                   <div style={{backgroundColor: '#2770FA'}}><div className="textPadding">
-                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: 'white'}}><b>Process</b></h3>
+                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: '#FFAD00'}}><b>Process</b></h3>
                   <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>The project intended to teach the
                   overall process and practices of <b>user-centred design</b> of digital products and services. Therefore, we needed to start designing them from scratch
                   going through all the stages of the procedure. During this process, these are the following tools that were used by the team.</p></div>
