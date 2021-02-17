@@ -53,6 +53,9 @@ class Landing extends Component {
               </div>
               <div className="section">
               <Navigation style={{display: 'inline'}}>
+                  <Link to="/PCfolio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
+              </Navigation>
+              <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/iande"><img className="ProjectPic" src={IandE}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
@@ -65,13 +68,13 @@ class Landing extends Component {
                   <Link to="/PCfolio.github.io/posti"><img className="ProjectPic" src={Posti}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
-                  <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
-              </Navigation>
-              <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/pcdesign"><img className="ProjectPic" src={PCdesign}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/pctechnical"><img className="ProjectPic" src={PCtechnical}/></Link>
+              </Navigation>
+              <Navigation style={{display: 'inline'}}>
+                  <Link to="/PCfolio.github.io/betsFriends"><img className="ProjectPic" src={BetsFriends}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/hackathonAD"><img className="ProjectPic" src={Adidas}/></Link>
@@ -81,9 +84,6 @@ class Landing extends Component {
               </Navigation>
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/tekla"><img className="ProjectPic" src={Tekla}/></Link>
-              </Navigation>
-              <Navigation style={{display: 'inline'}}>
-                  <Link to="/PCfolio.github.io/hackathonWK"><img className="ProjectPic" src={CodeWeek}/></Link>
               </Navigation>
               <Navigation style={{display: 'inline'}}>
                   <Link to="/PCfolio.github.io/hackathonGOC"><img className="ProjectPic" src={HackathonGOC}/></Link>

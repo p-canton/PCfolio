@@ -4,180 +4,202 @@ import { Link } from 'react-router-dom';
 import UWeekendAll from './images/UWeekendAll.jpg';
 import UWeekendWin from './images/UWeekendWin.jpg';
 
-import ADMphone from './images/ADMphone.png';
+import ADMphone from './images/optimoPC.png';
 
 import ADMpayment from './images/ADMpayment.jpeg';
-import ADMmockup from './images/ADMmockup.png';
-import ADMaIcon from './images/ADMaIcon.png';
-import ADMdIcon from './images/ADMdIcon.png';
-import ADMmIcon from './images/ADMmIcon.png';
-
+import ADMmockup from './images/LoFiOptimo.png';
+import ADMaIcon from './images/GoalsIcon.png';
+import ADMdIcon from './images/SkillsIcon.png';
+import ADMmIcon from './images/AnalyIcon.png';
+import OptimoImg from './images/OptimoImg.jpg';
+import OptimoLap from './images/OptimoLap.png';
 import KareTV from './images/KareTV.jpg';
-import ADMIcon from './images/ADMIcon.png';
-
+import ADMIcon from './images/OptimoIcon.png';
+import OptimoPhone from './images/OptimoPhone.png';
 import ReactIcon from './images/ReactIcon.png';
 import FireBaseIcon from './images/FireBaseIcon.png';
-import AndroidIcon from './images/AndroidIcon.png';
-import KinetIcon from './images/KinetIcon.png';
-import EstimoteIcon from './images/EstimoteIcon.png';
-import BluetoothIcon from './images/BluetoothIcon.png';
+import SearchIcon from './images/SearchIcon.png';
+import IdeaIcon from './images/IdeaIcon.png';
+import ValidationIcon from './images/ValidateIcon.png';
+import ProtoIcon from './images/ProtoIcon.png';
 import PythonIcon from './images/PythonIcon.png';
 import IBMIcon from './images/IBMIcon.png';
+import TeklaVideo from './images/optimoVideo.mp4';
 
 
 class Resume extends Component {
   render() {
     return (
-            <div style={{backgroundColor:"#FF7171"}}>
+            <div style={{backgroundColor:"#2F0252"}}>
               <div>
                 <div className = "MainFormat">
                 <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/tekla">
+                    <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
-                      <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/tekla">
-                    <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                      <i class="fa fa-chevron-left fa-lg" style={{color: '#FF5F55', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
+                    <i class="fa fa-chevron-left fa-lg" style={{color: '#FF5F55', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                     <Link className="LinkStyle" to="/PCfolio.github.io/">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'center'}}>Projects</p></Link>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'right', color: 'black'}}>
-                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/hackathonGOC">
+                  <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/iande">
                     <p style={{color: 'white', fontSize:'3vh', textAlign: 'right'}}>Next
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
-                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/hackathonGOC">
-                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
+                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FF5F55', fontSize:'3vh', padding: '1vh'}}></i></p></Link>
+                    <Link className="LinkStyle HidePC" to="/PCfolio.github.io/iande">
+                    <i class="fa fa-chevron-right fa-lg" style={{color: '#FF5F55', fontSize:'3vh', padding: '1vh'}}></i></Link>
                   </div>
                 </div>
                   <img  src={ADMIcon} style={{height: '30vh'}}/>
-                  <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"The IoT bank of the future"</p>
+                  <p className = "SubTittle" style={{color: 'white', paddingBottom: '4vh'}}>"Assure upskilling in a world of continuous disruption"</p>
                   </div>
                 </div>
               <div>
-              <img className="imageProject" src={ADMpayment}/>
+              <img className="imageProject" src={OptimoImg}/>
               <div style={{backgroundColor: "white"}}>
               <div className="textPadding" style={{paddingTop: '4vh'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
-                  In May of 2017, a team of four students participated in a 48h hackathon in Madrid, where the team developed automatic distance machine <b>ADM</b>,
-                  an android application solution that uses beacons together with <b>IBM</b> cloud solution for the bank sector. The solution aims to let the costumers from
-                  a bank entity have a personalised treatment,  managing queue appointments and modernise the ATM user experience. With ADM, your costumers have personal
-                  financial management (PFM) and experience banking differently.
+                I was one of the five co-founders of <b>Optimo</b> in Frankfurt, inside a three-month accelerator program at <b>Futury</b>. The startup was found in October of 2020 to upskill
+                factory workers so that they are prepared with future relevant skills. The solution aims to let the shift manager and factory workers have a personalised learning
+                strategy, track their skill improvement, and reach their learning goals. With Otimo, factories will help de up-skilling of their workers, while keeping the production rate high.
                 </p>
               </div>
               <div className="textPadding" style={{textAlign: 'center'}}>
                 <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
-                  ADM is a new tool that using the advantages that brings the beacons, IBM Watson and the cloud, aims to revolutionize the bank industry. With this new banking
-                  tool, customers have personalized appointments, have an automated app interaction, and change the current ATMs services. These are the central features that
-                  ADM brings:
-                </p>
+                Optimo develops a smart upskilling planner for factory workers. Presently, our product is in the introductory stage. The USP is the combination of production-based
+                planning and the skill-based matching of the workforce, each factory worker, with a learning module and a time slot. Our future includes user testing, developing an
+                MVP in close cooperation with our partners and launching the product in March 2022. Additionally to this future plan, these are the central features that Optimo brings:
+                </p><br/>
                 <div className = "ContGrid3" style={{color: 'white'}}>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                     <img src={ADMaIcon} style={{height: '15vh'}}/>
-                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Adjustability</b></p>
-                    <p>Adapt your services to your preferences</p>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Learning goals</b></p>
+                    <p>Achieve the learning goals</p>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                     <img src={ADMdIcon} style={{height: '15vh'}}/>
-                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Distance</b></p>
-                    <p>The app interface automnaticaly modifies</p>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Skills track</b></p>
+                    <p>Track the skill improvements</p>
                   </div>
                   <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                     <img src={ADMmIcon} style={{height: '15vh'}}/>
-                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Management</b></p>
-                    <p>All your bank info is accessible from the app</p>
+                    <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Learning strategy</b></p>
+                    <p>Long-term learning strategy</p>
                   </div>
                 </div>
+                <br/>
+                <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                We define our market as upskilling solutions for the manufacturing industry. The total market size of our obtainable market is 1300 production companies. This number is expected
+                to increase by 2% yearly. Central to our solution is its sustainability impact. We believe that for our solution to be the most effective, we need to plan learnings in a way that
+                the workers learn more sustainably, to create a flexible and resilient workforce.
+                </p><br/>
               </div>
-                <div style={{backgroundColor: '#FF7171'}}>
+                <div style={{backgroundColor: "#2F0252"}}>
+                <img className="imageProject" src={OptimoPhone} />
                   <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                         <div>
-                          <h3 style={{color: '#FFAD00'}}><b>The hack</b></h3>
+                          <h3 style={{color: '#FF5F55'}}><b>Development</b></h3>
+                          <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}><b>Research</b></p>
                           <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
-                          The goal of the hackathon was to develop a demo to show all the potential of the idea. The work was divided into three different phases, to
-                          guarantee the best result. The first step was to design a concept that  Capgemini could benefit from and implementing the solutions in the bank
-                          sector. Once the team has a clear path, the next step was to develop the android app. My responsibility was to design and develop the front-end
-                          of the web app and give support to developing the database with FireBase. Finally, the last step was to test the app for the demo and create a
-                          presentation; showing the benefit of our idea and all the work that the team did during 48 hours.
+                          The research process took a total of three weeks. During this period, I focus on conducting several interviews with our partners at the accelerator. Some of these partners
+                          were Schaeffler, Nestle, Microsoft, TeamViewer, Deutsche Bank etc. Additionally, the team created a questionnaire to obtain relevant quantitative data and conducted 41
+                          interviews to obtain qualitative data. The team used an affinity mapping and brains storming techniques using Mirro.
+                          </p>
+                          <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                          Our user interviews have shown that the learning content already exists within the company. Also, we find out that we have to develop a solution that trains the factory workers
+                          in sustainably way and prepare them for the upcoming challenges of Industry 4.0.
                           </p>
                         </div>
                       </div>
                       <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                         <div>
-                        <img src={ADMmockup} style={{maxWidth: '100vh', width: '100%', height: 'auto', paddingTop: '4vh'}}/></div>
+                        <img src={ADMmockup} style={{maxWidth: '95vh', width: '95%', height: 'auto', paddingTop: '4vh'}}/></div>
                       </div>
                     </div>
                     <div style={{color: 'black', backgroundColor:'white'}}>
                       <div className="textPadding">
+                      <br/><p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}><b>Ideation</b></p>
                         <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
-                          The final result was an Android app that applies the beacons technology and IBM Watson together into a cloud solution. The beacons were employed to
-                          detect the customer location and change the app interface depending on the different scenarios. By implementing this adaptable interface, the goal is
-                          to provide to the customer with a faster and simplistic experience. Meanwhile, ADM gives the client access to all their bank data on the cloud to have
-                          control of it. The costumers can take money from the ATM immediately standing net to it, avoiding fiscal interaction or more secure. Meantime thanks to
-                          app suggestions, the patients have instant feedback and help, developing their financial state. Finally, this helps to give more freedom to the clients
-                          and better customer experience. The flexibility and real-time data of the applications, let the clients control their appointment with the bank, helping
-                          to make the process much appealing for the customer and bank.
+                        The ideation process was divide into two different cycles, a Lo-Fi prototyping testing from a mobile-first design method, and a Hi-Fi usability
+                        testing procedure with five tasks.
                         </p>
-                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', paddingBottom: '2em',textAlign: 'justify', color: 'black'}}>
-                        As a result of all this hard work, the team end up winning the <b>2nd place</b>.</p>
+                        <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                        The first cycle evaluates the idea that the teams developed during the ideation procedure and tested different concepts. During this first step, Optimo finds out that the tool
+                        should focus more on the shift manager and be designed fo laptops or tablets. The second cycle evaluated the usability of the product and the general user experience. This
+                        usability testing ends up with good feedback, and we find some improvement for the user interface.
+                        </p>
                       </div>
+                      <div className = "ContGrid2" style={{color: 'black', backgroundColor:'white'}}>
+                        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                        <div>
+                        <img src={OptimoLap} style={{maxWidth: '90vh', width: '90%', height: 'auto', paddingTop: '4vh'}}/></div>
+                          </div>
+                          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                          <div>
+                            <h3 style={{color: '#FF5F55'}}><b>Result</b></h3>
+                            <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                            Our smart upskilling planner is based on a three-step web app solution approach. In the first step, Optimo collects the following data points. Firstly, the competence matrix
+                            to capture the status quo of the current competence level of your workforce. Secondly, the production capacity in order to be able to adapt the learning volume to the machine
+                            utilization (through the MES system of the company). Thirdly, the possible learning modules, in order to get an overview of the already existing upskilling opportunities within
+                            the company, and their deadlines, in order to know until when certain competencies are needed (I. E. to have a trained factory worker to operate a new machine when it arrives).
+                            </p>
+                            <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'black'}}>
+                            After processing this data in the second step, the final step generates the following three outcomes: First, the match, which gives you concrete and adapted suggestions, when who
+                            should learn what to bring the biggest benefit. Secondly the learning calendar, that clearly shows all planned learning sessions. Finally, the learning roadmap and progress view,
+                            which on the one hand display your learning objectives over time and on the other hand displays the learning achievements which were accomplished.
+                            </p>
+                          </div>
+                          </div>
+                        </div>
                     </div></div>
-                  <div style={{backgroundColor:"#FF7171"}}>
+                  <div style={{backgroundColor:"#2F0252"}}>
                   <img className="imageProject" src={ADMphone} />
-                  <div style={{backgroundColor: '#FF7171'}}><div className="textPadding">
-                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2vh',textAlign: 'center', color: '#FFAD00'}}><b>Tools</b></h3>
-                  <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>For the team, this was the first hackathon
-                  they participated. At this event, the team learned to implement new technologies and work as a team for the first time. During this process, these are the
-                  following tools that were used by the team.</p></div>
-                  <div className = "ContGrid4-2" style={{color: 'white', backgroundColor: '#FF7171', paddingTop: '3vh'}}>
+                  <div style={{backgroundColor: '#2F0252'}}><div className="textPadding">
+                  <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '4vh',textAlign: 'center', color: '#FF5F55'}}><b>Process</b></h3>
+                  <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'justify', color: 'white'}}>To develop the idea, the team followed a
+                  <b>user-centred design</b> methodology focuses on digital products and services. To mage team communication and organization, we used an <b>AGILE methodology</b>.
+                  Therefore, we needed to start designing the idea from scratch going through all the stages of developing a new start-up. During this project, these are the following
+                  tools and methods that the team used.</p></div>
+                  <div className = "ContGrid4-2" style={{color: 'white', backgroundColor: '#2F0252', paddingTop: '4vh', paddingBottom: '8vh'}}>
                     <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={ReactIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>React</b></p>
+                      <img src={SearchIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Problem</b></p>
+                      <p style={{lineHeight: '80%'}}>Companies analysis</p>
+                      <p style={{lineHeight: '80%'}}>Semi-structured interviews</p>
                     </div>
                     <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={ReactIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>React Native</b></p>
+                      <img src={IdeaIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Ideation</b></p>
+                      <p style={{lineHeight: '80%'}}>Hypothesis map + User journey</p>
+                      <p style={{lineHeight: '80%'}}>Affinity Mapping</p>
                     </div>
                     <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={FireBaseIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Firebase</b></p>
+                      <img src={ValidationIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Validation</b></p>
+                      <p style={{lineHeight: '80%'}}>Lo-Fi testing</p>
+                      <p style={{lineHeight: '80%'}}>User testing</p>
                     </div>
                     <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={AndroidIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Android</b></p>
-                    </div>
-                  </div><div className = "ContGrid4-2" style={{color: 'white', backgroundColor: '#FF7171'}}>
-                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={BluetoothIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Bluetooth</b></p>
-                    </div>
-                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={EstimoteIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Estimote</b></p>
-                    </div>
-                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={PythonIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Python</b></p>
-                    </div>
-                    <div style={{fontSize: '1.5em', textAlign: 'center'}}>
-                      <img src={IBMIcon} style={{height: '10vh'}}/>
-                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>IBM Cloud</b></p>
+                      <img src={ProtoIcon} style={{height: '10vh'}}/>
+                      <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Prototype</b></p>
+                      <p style={{lineHeight: '80%'}}>Illustrator</p>
+                      <p style={{lineHeight: '80%'}}>Figma</p>
                     </div>
                   </div></div>
-                  <div className="HidePhone"  style={{color: 'white', backgroundColor:'#FF7171', textAlign: 'center'}}>
-                    <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>NED team</p>
-                    <img src={UWeekendWin} style={{width:'70%', borderRadius: '1em'}}/>
-                  </div>
-                  <div className="HidePC" style={{color: 'white', backgroundColor:'#FF7171', textAlign: 'center'}}>
-                    <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>NED team</p>
-                    <img src={UWeekendWin} style={{width:'90%', borderRadius: '1em'}}/>
+                  <div className="HidePhone" style={{color: 'black', backgroundColor:'#2F0252', textAlign: 'center'}}>
+                    <p style={{paddingTop: '1em',paddingRight: '2em', paddingLeft: '2em',textAlign: 'center', color: 'white', fontSize:'3vh'}}>Optimo pitch</p><br/>
+                    <video controls style={{width:'70%', borderRadius: '1em'}}>
+                      <source src={TeklaVideo} type="video/mp4"/>
+                    </video>
                   </div>
                   <div style={{color: 'white', paddingBottom:'4vh', textAlign: 'center'}}>
-                    <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2vh',textAlign: 'center', color: '#FFAD00'}}><b>Team Members</b></h3>
+                    <h3 style={{paddingRight: '2em', paddingLeft: '2em', paddingTop: '2vh',textAlign: 'center', color: '#FF5F55'}}><b>Team Members</b></h3>
                     <p className="TextFont" style={{paddingRight: '2em', paddingLeft: '2em', textAlign: 'center', color: 'white'}}>
-                    Victor Fernández <b>-</b> Pablo Cantón <b>-</b> Alberto Camporredondo <b>-</b> Marco Catalán
+                    Vinusha Navakumaran <b>-</b> Mona Ghazi <b>-</b> Pablo Cantón <b>-</b> Laura Schildknecht <b>-</b> Rinusan Navakumaran
                     </p>
                   </div>
                 </div>
@@ -200,7 +222,7 @@ class Resume extends Component {
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <Link className="LinkStyle" to="/PCfolio.github.io/">
-                  <p style={{color: '#FFAD00', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
+                  <p style={{color: '#FF5F55', fontSize:'2.5vh', textAlign: 'center', paddingTop:"1em"}}>Home</p></Link>
                 </div>
               </div>
             </div>

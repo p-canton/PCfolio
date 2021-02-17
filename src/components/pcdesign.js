@@ -32,6 +32,10 @@ import LogoRady from './images/LogoRady.png';
 import LogoMG95 from './images/LogoMG95.png';
 import Logo95MG from './images/Logo95MG.png';
 import PCcard from './images/PCcard.png';
+import LogoSQbond from './images/LogoSQbond.png';
+import LogoVinu from './images/LogoVinu.png';
+import LogoFlexBox from './images/LogoFlexBox.png';
+import LogoSandClock from './images/LogoSandClock.png';
 
 import BoostID from './images/BOOSTID.mp4';
 import ShareGo from './images/ShareGo.mp4';
@@ -51,10 +55,10 @@ class Resume extends Component {
                 <div className = "MainFormat">
                   <div className = "ContGrid3Bar" style={{color: 'white', paddingBottom: '4em'}}>
                     <div style={{fontSize: '1.5em', textAlign: 'left', color: 'black'}}>
-                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/betsFriends">
+                      <Link className="LinkStyle HidePhone" to="/PCfolio.github.io/posti">
                       <p style={{color: 'white', fontSize:'3vh', textAlign: 'left'}}>
                         <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i>Previous</p></Link>
-                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/betsFriends">
+                      <Link className="LinkStyle HidePC" to="/PCfolio.github.io/posti">
                       <i class="fa fa-chevron-left fa-lg" style={{color: '#FFAD00', fontSize:'3vh', padding: '1vh'}}></i></Link>
                     </div>
                     <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
@@ -114,14 +118,36 @@ class Resume extends Component {
                   <p>Redesigning Fanta logo.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoLdng} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>L..D.NG</b></p>
-                  <p>Testing with symbolic shapes and icons.</p>
+                  <img src={LogoSQbond} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>sq-bond</b></p>
+                  <p>Concept logo for a personal project.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoMS} style={{height: '15vh'}}/>
                   <p style={{fontSize: '1em', paddingTop: '1em'}}><b>MindScape</b></p>
                   <p>MindScape company logo concept.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoFlexBox} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Flex Box</b></p>
+                  <p>Logo for a modular home office startup.</p>
+                </div>
+              </div>
+              <div className = "ContGrid4-2" style={{color: 'white', paddingBottom: '2em'}}>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoRady} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Rady</b></p>
+                  <p>Logo for new bank service.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoLdng} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>L..D.NG</b></p>
+                  <p>Testing with symbolic shapes and icons.</p>
+                </div>
+                <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
+                  <img src={LogoVinu} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Vinu</b></p>
+                  <p>Personal logo designed for a friend.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoGV} style={{height: '15vh'}}/>
@@ -136,9 +162,9 @@ class Resume extends Component {
                   <p>Logo for a B2B startup.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
-                  <img src={LogoRady} style={{height: '15vh'}}/>
-                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Rady</b></p>
-                  <p>Logo for new bank service.</p>
+                  <img src={LogoSandClock} style={{height: '15vh'}}/>
+                  <p style={{fontSize: '1em', paddingTop: '1em'}}><b>Optimo</b></p>
+                  <p>Icon for a B2B startup.</p>
                 </div>
                 <div style={{fontSize: '1.5em', textAlign: 'center', color: 'black'}}>
                   <img src={LogoUIN} style={{height: '15vh'}}/>
